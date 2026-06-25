@@ -1,0 +1,20 @@
+# my trial 
+name: mostafa
+
+age: 30
+salary: 5000
+username: mostafa123
+is_active: true
+
+deplomet_date: 2024-01-01
+directmanager: John Doe
+
+seriel: '1234567890'
+
+regex: '^[a-zA-Z0-9]+$'
+
+message: "hello\nworld"
+
+path: 'C:\\Users\\mostafa'
+qoute: 'its a test'
+

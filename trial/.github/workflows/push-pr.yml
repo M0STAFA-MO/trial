@@ -1,0 +1,27 @@
+on: 
+  push:
+    branches:
+      - main
+      - 'release/**'
+    paths:
+      - 'src/**'
+
+  pull_request:
+      branches:
+        - main
+        - 'release/**'
+      paths:
+        - 'src/**'
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print a welcome message
+        run: echo "Welcome"
+        
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.0
+
+      - name: run tests
+        run: npm test
