@@ -1,3 +1,4 @@
+#!/bin/bash
 expected='Hello, Test!'
 
 output=$(node -e "console.log(require('./src/app')('Test'))")
