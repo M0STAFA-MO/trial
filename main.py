@@ -1,6 +1,11 @@
-def main():
-    print("Hello from blockchain!")
+# %%
+print("Hello from Zed REPL!")
+x = 10
+y = 20
+print(x + y)
 
-
-if __name__ == "__main__":
-    main()
+# %%
+print("asdadasd!")
+x = 1000
+y = 20
+print(x + y)
